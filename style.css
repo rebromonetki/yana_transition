@@ -1,0 +1,110 @@
+
+#elem1 { 
+    background: white;
+    border: 3px solid blue;
+    transition: background 1s ease-out;
+    width: 15%;
+    height: 100px;     
+ }
+#elem1:hover {
+	background: blue;
+}
+
+#elem2 {
+    background: white;
+    border: 3px solid blue;
+    color: blue;
+    width: 15%;
+    height: 100px;
+    transition: all 2s ease-out;
+ }
+ #elem2:hover { 
+     color: white; 
+     background: blue;
+ }
+ #elem3 {
+    background: white;
+    border: 3px solid blue;
+    color: blue;
+    width: 15%;
+    height: 50px;
+    transition: width 2s ease-out;
+ }
+ #elem3:hover { 
+     width: 100%;
+ }
+
+ #elem4 {
+    background: white;
+    border: 3px solid blue;
+    color: blue;
+    width: 15%;
+    height: 50px;
+    font-size: 15px;
+    transition: width 2s ease-out, font-size 2s ease-out;
+ }
+ #elem4:hover { 
+     width: 50%; 
+     font-size: 30px;
+ }
+
+ #elem5 {
+    background: white;
+    border: 3px solid blue;
+    color: red;
+    width: 60%;
+    height: 50px;
+    transition: width 1s ease-out 0.2s,  margin-left 1s ease-out 0.2s;
+  }
+
+ #elem5: hover { 
+     width: 70%; 
+     margin-left: 10%;
+ }
+
+ #elem6 {
+   
+    background: white;
+    border: 3px solid blue;
+    color: black;
+    width: 20%;
+    height: 50px; 
+    text-indent: 2000px;
+    line-height: 50px;
+    text-align: center;
+    transition: text-indent .5s linear;
+    white-space: nowrap;
+ }
+ 
+ #elem6:hover { 
+     color: black; 
+     text-indent: 10px; 
+ }
+ 
+ #elem7 {
+    border: 3px solid blue;
+	width: 15%;
+	height: 50px;
+    color: blue;
+    transition: width 3s linear 3s;
+}
+#elem7:hover {
+   width: 100%;
+}
+
+#elem8 {
+	width: 30%;
+	height: 30px;
+	padding: 0px 5px;
+    transition: all 1s ease-out;
+ }
+elem8:focus{ 
+	width: 50%; 
+    box-shadow: 0px 0px 2px blue; 
+    color: blue; 
+    outline: none;
+}
+
+
+ 
+ 
