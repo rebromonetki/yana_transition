@@ -93,18 +93,192 @@
 }
 
 #elem8 {
-	width: 30%;
-	height: 30px;
-	padding: 0px 5px;
-    transition: all 1s ease-out;
+	border: 3px solid blue;
+	width: 45%;
+	height: 50px;
+    color: red;
+    text-align: center;
  }
-elem8:focus{ 
-	width: 50%; 
-    box-shadow: 0px 0px 2px blue; 
-    color: blue; 
-    outline: none;
+
+
+ .elem9 div{
+	background: white;
+	border: 3px solid blue;
+   	width: 5%;
+	height: 20px;
+    margin-bottom: 20px;
+   	transition: all 1s ease-out;
+}
+.elem9 div:last-child{
+	margin-bottom: 0;
+}
+
+.elem9{
+	border: 3px solid green;
+    background-color: lightgreen;
+    padding: 20px 2%
+}
+.elem9:hover div{ 
+	width: 100%;
+}
+
+.elem10 div{
+	background: white;
+	border: 3px solid blue;
+    background-color: lightblue;
+   	width: 5%;
+	height: 20px;
+   	margin: 0px 0px 20px 20px;
+    transition: all 1s ease-out;
+}
+.elem10 div:last-child{
+	margin-bottom: 0;
+}
+
+.elem10 div:hover  + div{
+	width: 100%;
 }
 
 
+.elem11 div{
+	background: white;
+	border: 3px solid blue;
+    width: 5%;
+	height: 20px;
+   	margin: 0px 0px 20px 20px;
+    transition: all 1s ease-out;
+}
+.elem11 div:last-child{
+	margin-bottom: 0;
+}
+
+.elem11 div:hover  ~ div{ 
+	width: 100%;
+}
+
+
+.elem12 div{
+	background: white;
+	border: 3px solid blue;
+    background-color: lightblue;
+   	width: 5%;
+	height: 20px;
+   	margin: 0px 0px 20px 20px;
+    transition: all 1s ease-out;
+}
+.elem12 div:last-child{
+	margin-bottom: 0;
+}
+
+.elem12 div:hover  + div + div{ 
+	width: 100%;
+}
+
+.elem13 {
+    background: white;
+    border: 3px solid blue;
+ }
  
+ .elem135 {
+     background: blueviolet;
+     
+     width: 300px;
+     height: 30px;
+     line-height: 30px;
+     margin: 20px 0px 0px -400px;
+     padding: 10px;
+     text-align: center;
+     color: white;
+     transition: all 1s ease-out;
+     
+ }
+ 
+ .elem13:hover  + .elem135 { 	
+     margin-left: 30%;
+ }
+ 
+ #elem141 {
+    border: 3px solid blue;
+	width: 5%;
+	height: 20px;
+    transition: width 3s steps(5, start);
+}
+#elem142 {
+    border: 3px solid blue;
+	width: 5%;
+	height: 20px;
+	margin-top: 20px;
+	transition: width 3s steps(5, end);
+}
+#elem14:hover div{
+    width: 100%;
+}
+
+#elem15 {
+    border: 3px solid blue;
+	width: 20%;
+	height: 40px;
+    background-color: aquamarine;
+	transition: width 3s cubic-bezier(.9,-0.4,0,.9);
+}
+#elem15:hover {
+    width: 100%;
+}
+
+#elem16 {
+	border: 3px solid blue;
+	width: 40%;
+	height: 140px;
+    text-align: center;
+}
+#elem161 {
+	background: green;
+	width: 0%;
+	height: 30px;
+	transition: all 2s linear;
+
+ }
+ #elem162 {
+	background: red;
+	width: 0%;
+	height: 30px;
+	transition: all 2s linear;
+ }
+#elem16:hover div{ 
+	width: 100%; 
+}
+
+#elem17{
+	width: 50%;
+	height: 40px;
+	border: 3px solid blue;
+}
+#elem171{
+	background: blue;
+	width: 0%;
+	height: 40px;
+    text-align: center;
+	transition: all 2s steps(10, start);
+
+ }
+#elem17:hover div{ 
+	width: 100%; 
+}
+
+#elem18{
+	background: white;
+	border: 3px solid blue;
+    background-color: aqua;
+	width: 100px;
+	height: 100px;
+	margin: 200px auto;
+	transition: all 1s linear;
+	box-shadow: -150px -150px red, 200px -300px green;
+	
+}
+ 
+#elem18:hover { 
+	box-shadow: 100px 100px yellow, 100px 100px yellow; 
+}
+
  
